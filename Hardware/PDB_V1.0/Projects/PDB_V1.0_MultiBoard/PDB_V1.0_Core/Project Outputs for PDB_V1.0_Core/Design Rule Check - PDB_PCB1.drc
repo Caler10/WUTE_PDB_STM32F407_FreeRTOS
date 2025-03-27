@@ -1,0 +1,130 @@
+Protel Design System Design Rule Check
+PCB File : E:\Workspace\Workspace\Altium Designer workspace\Projects\PDB_V1.0_MultiBoard\PDB_V1.0_Core\PDB_PCB1.PcbDoc
+Date     : 2024/7/4
+Time     : 16:37:13
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('450vNet')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3.2mm) (Disabled)(InNetClass('450vNet')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsKeepOut),(InComponentClass('Opto'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) (InComponentClass('NetTie')),(InComponentClass('NetTie'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers)),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.635mm) ((InNetClass('PowerNet'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InComponentClass('NetTie') OR((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))),(InComponentClass('NetTie') OR ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers)))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(4.6mm) (Disabled)(InNetClass('450vNet')),(InNetClass('All Nets'))
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(0.13mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(0mm) (InComponentClass('NetTie')),(InComponentClass('NetTie'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=5.08mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.19mm) (MaxHoleWidth=2mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.381mm) (MaxWidth=3.048mm) (PreferedWidth=20mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0.076mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0.127mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.25mm) (NOT IsVia)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+   Violation between Minimum Annular Ring: (No Ring) Via (4mm,29.1mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (4mm,8.9mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (52mm,29.1mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (52mm,8.9mm) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+Rule Violations :4
+
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=30.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=999mm) ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mm) (All),((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.076mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.025mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.305mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 1.5mm, Vertical Gap = Infinite ) (InComponentClass('450vPart')),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0.254mm ) (IsNetTieComponent),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=40mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Waived Violations : 0
+Time Elapsed        : 00:00:08

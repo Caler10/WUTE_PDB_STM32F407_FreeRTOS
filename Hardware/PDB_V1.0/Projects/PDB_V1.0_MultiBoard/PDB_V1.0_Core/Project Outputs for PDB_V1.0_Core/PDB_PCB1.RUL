@@ -1,0 +1,14 @@
+DRC Rules Export File for PCB: E:\Workspace\Workspace\Altium Designer workspace\Projects\PDB_V1.0_MultiBoard\PDB_V1.0_Core\PDB_PCB1.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=ViaAnnularRing|Scope=Board|Minimum=3.94
+RuleKind=MinimumAnnularRing|RuleName=PadMinimumAnnularRing|Scope=Board|Minimum=9.84
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=ShortCircuit|RuleName=ShortCircuitOvRide|Scope=Board|Allowed=1
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=450V_Clearance|Scope=Board|Minimum=125.98
+RuleKind=Clearance|RuleName=PowerTrace25mil|Scope=Board|Minimum=25.00
+RuleKind=Clearance|RuleName=IPC,500V,Polymer,uncoatedLead|Scope=Board|Minimum=59.06
+RuleKind=Clearance|RuleName=UnplatedHoleClearanceOvRide|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=KeepoutOvRide|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=ClearanceOvRide|Scope=Board|Minimum=12.00

@@ -1,0 +1,32 @@
+Error Report for  - Users\HUAWEI\AppData\Local\Temp\Qjz3CD9.tmp
+2024/3/1 22:53:29
+
+Warning arcs were not exported.
+
+Net BAT_voltage_IN14 with allias 1 too long.
+Net H3_current_IN12 with allias 10 too long.
+Net H4_current_IN13 with allias 11 too long.
+Net L1_5V_Backup_EN with allias 12 too long.
+Net L1_24V_Backup_EN with allias 13 too long.
+Net L2_5V_Backup_EN with allias 14 too long.
+Net L2_24V_Backup_EN with allias 15 too long.
+Net L3_5V_Backup_EN with allias 16 too long.
+Net L4_5V_Backup_EN with allias 17 too long.
+Net TAILLIGHT_PWR_EN with allias 18 too long.
+Net Temperature_PWR_EN with allias 19 too long.
+Net BAT_voltage_IN15 with allias 2 too long.
+Net ENERGE_METER_PWR_EN with allias 3 too long.
+Net GPIO_OUTPUT_PE0 with allias 4 too long.
+Net H1_24V_Backup_EN with allias 5 too long.
+Net H1_current_IN10 with allias 6 too long.
+Net H2_24V_Backup_EN with allias 7 too long.
+Net H2_current_IN11 with allias 8 too long.
+Net H3_24V_Backup_EN with allias 9 too long.
+Warning pad shape change for IC3-5 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-3 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-7 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-6 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-4 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-1 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-2 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil
+Warning pad shape change for IC3-8 from rounded 23.622mil,57.087mil to rectangular 23.622mil,33.465mil

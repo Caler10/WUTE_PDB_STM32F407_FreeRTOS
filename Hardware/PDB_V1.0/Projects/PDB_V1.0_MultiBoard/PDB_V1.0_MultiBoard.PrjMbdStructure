@@ -1,0 +1,8 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic2.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB1|Source=PDB_V1.0_Core\PDB_V1.0_Core.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic2.MbsDoc|ProjectPath=PDB_V1.0_Core\PDB_V1.0_Core.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic2.MbsDoc|Kind=Multi-board Schematic Module|Designator=PCB2|Source=PDB_V1.0_Mother\PDB_V1.0_Mother.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic2.MbsDoc|ProjectPath=PDB_V1.0_Mother\PDB_V1.0_Mother.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=PDB_V1.0_Core\PDB_V1.0_Core.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=PDB_V1.0_Core\PDB_V1.0_Core.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=PDB_V1.0_Mother\PDB_V1.0_Mother.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=PDB_V1.0_Mother\PDB_V1.0_Mother.PrjPcb

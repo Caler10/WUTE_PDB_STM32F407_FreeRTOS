@@ -1,0 +1,139 @@
+Protel Design System Design Rule Check
+PCB File : E:\Workspace\Workspace\Altium Designer workspace\Projects\PDB_V1.1_MultiBoard\PDB_V1.1_Core\PDB_Core_v1.1_PCB.PcbDoc
+Date     : 2024/7/12
+Time     : 23:29:31
+
+Processing Rule : Clearance Constraint (Gap=125.984mil) (Disabled)(InNetClass('450vNet')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=11.811mil) ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers)),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=59.055mil) (InNetClass('450vNet')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=12mil) (InComponentClass('NetTie')),(InComponentClass('NetTie'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mil) (IsKeepOut),(InComponentClass('Opto'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=12mil) (All),(All)
+   Violation between Clearance Constraint: (6.864mil < 12mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB1-A1B12(1228.352mil,277mil) on Bottom Layer 
+   Violation between Clearance Constraint: (8.23mil < 12mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB1-A4B9(1196.852mil,277mil) on Bottom Layer 
+   Violation between Clearance Constraint: (6.865mil < 12mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB1-B1A12(976.382mil,277mil) on Bottom Layer 
+   Violation between Clearance Constraint: (8.23mil < 12mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB1-B4A9(1007.872mil,277mil) on Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Clearance Constraint (Gap=25mil) ((InNetClass('PowerNet'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InComponentClass('NetTie') OR((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))),(InComponentClass('NetTie') OR ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers)))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(5.12mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(0.01mil) (InComponentClass('NetTie')),(InComponentClass('NetTie'))
+Rule Violations :0
+
+Processing Rule : Creepage Distance Constraint =(181.102mil) (Disabled)(InNetClass('450vNet')),(InNetClass('All Nets'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=200mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=7.48mil) (MaxHoleWidth=78.74mil) (PreferredHoleWidth=11.811mil) (MinWidth=15mil) (MaxWidth=120mil) (PreferedWidth=787.402mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=10mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=15mil) (Max=15mil) (Prefered=15mil) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=3mil) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3.937mil) (All)
+   Violation between Minimum Annular Ring: (No Ring) Via (157.48mil,1145.669mil) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (157.48mil,350.394mil) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (2047.244mil,1145.669mil) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+   Violation between Minimum Annular Ring: (No Ring) Via (2047.244mil,350.394mil) from Top Layer to Bottom Layer (Annular Ring missing on Top Layer)
+Rule Violations :4
+
+Processing Rule : Minimum Annular Ring (Minimum=9.842mil) (NOT IsVia)
+   Violation between Minimum Annular Ring: (7.872mil < 9.842mil) Pad USB1-1(1272.442mil,254.36mil) on Multi-Layer (Annular Ring=7.874mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (7.872mil < 9.842mil) Pad USB1-2(932.282mil,254.36mil) on Multi-Layer (Annular Ring=7.874mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (7.873mil < 9.842mil) Pad USB1-3(1272.442mil,90.98mil) on Multi-Layer (Annular Ring=7.874mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (7.873mil < 9.842mil) Pad USB1-4(932.282mil,90.98mil) on Multi-Layer (Annular Ring=7.874mil) On (Top Layer)
+Rule Violations :4
+
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=30.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=236.22mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=39330.709mil) ((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mil) (All),((HoleDiameter > 0) And (PadIsPlated = 'False') AND (HoleDiameter >= PadYSize_AllLayers))
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.051mil < 3mil) Between Pad CN2-19(1962.205mil,480.315mil) on Bottom Layer And Via (1898.626mil,479.647mil) from Top Layer to Bottom Layer [Bottom Solder] Mask Sliver [0.051mil]
+Rule Violations :1
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1277.558mil,-12.859mil)(1277.558mil,46.907mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (927.165mil,-12.859mil)(1277.558mil,-12.859mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (927.165mil,46.907mil)(927.165mil,-12.859mil) on Bottom Overlay 
+Rule Violations :3
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 12mil, Vertical Gap = 10mil ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 59.055mil, Vertical Gap = Infinite ) (InComponentClass('450vPart')),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 10mil ) (IsNetTieComponent),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1574.803mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 16
+Waived Violations : 0
+Time Elapsed        : 00:00:05
