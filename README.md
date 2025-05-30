@@ -2,7 +2,7 @@
 
 # 关于本项目
 
-一款基于STM32F4+FreeRTOS开发的智能低压配电板 Power Delivery Board，具体功能如下：
+一款基于STM32F4+FreeRTOS开发的智能低压配电板(PDB,Power Delivery Board)，具体功能如下：
 
 1. 被动的配电过流保护功能（取代保险丝）
 2. 具有配电控制与诊断功能，可实时诊断各通道电流情况
@@ -59,3 +59,13 @@ PDB_V1.1_MultiBoard：
 PDB嵌入式软件基于STM32cubeMX+Keil开发，采用FreeRTOS操作系统
 
 ![PDB_firmware.png](Firmware/PDB_firmware.png)
+
+# 实物图
+
+如下图为焊接好的一块PDB可用备件
+
+![PDB_V1.1_Picture.png](Hardware/PDB_V1.1_Picture.png)
+
+如下图为PDB和两块12V低压电池封装在一起，布置在赛车尾部
+
+![PDB_V1.1_Picture2.png](Hardware/PDB_V1.1_Picture2.png)
