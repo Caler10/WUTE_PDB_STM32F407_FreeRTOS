@@ -16,46 +16,46 @@
 
 因涉及大电流配电，考虑到设计失误导致炸板烧板，为降低试错成本，方便部分更换，采用控制板和驱动板分板架构设计，板对板连接器连接
 
-![PDB_V1.1_MultiBoard_Architecture.png](Hardware\PDB_V1.1\PDB_V1.1_MultiBoard_Architecture.png)
+![PDB_V1.1_MultiBoard_Architecture.png](Hardware/PDB_V1.1/PDB_V1.1_MultiBoard_Architecture.png)
 
 ### PDB_V1.0
 
 PDB_V1.0控制板：
 
-![PDB_V1.0_Core_2D.png](Hardware\PDB_V1.0\PDB_V1.0_Core_2D.png)
+![PDB_V1.0_Core_2D.png](Hardware/PDB_V1.0/PDB_V1.0_Core_2D.png)
 
-![PDB_V1.0_Core_3D.png](Hardware\PDB_V1.0\PDB_V1.0_Core_3D.png)
+![PDB_V1.0_Core_3D.png](Hardware/PDB_V1.0/PDB_V1.0_Core_3D.png)
 
 PDB_V1.0驱动板：
 
-![PDB_V1.0_Mother_3D.png](Hardware\PDB_V1.0\PDB_V1.0_Mother_3D.png)
+![PDB_V1.0_Mother_3D.png](Hardware/PDB_V1.0/PDB_V1.0_Mother_3D.png)
 
-![PDB_V1.0_Mother_3Dback.png](Hardware\PDB_V1.0\PDB_V1.0_Mother_3Dback.png)
+![PDB_V1.0_Mother_3Dback.png](Hardware/PDB_V1.0/PDB_V1.0_Mother_3Dback.png)
 
 PDB_V1.0_MultiBoard：
 
-！[PDB_V1.0_MultiBoard_3D.png](Hardware\PDB_V1.0\PDB_V1.0_MultiBoard_3D.png)
+![PDB_V1.0_MultiBoard_3D.png](Hardware/PDB_V1.0/PDB_V1.0_MultiBoard_3D.png)
 
 ### PDB_V1.1
 
 PDB_V1.1控制板：
 
-![PDB_V1.1_Core_2D.png](Hardware\PDB_V1.1\PDB_V1.1_Core_2D.png)
+![PDB_V1.1_Core_2D.png](Hardware/PDB_V1.1/PDB_V1.1_Core_2D.png)
 
-![PDB_V1.1_Core_3D.png](Hardware\PDB_V1.1\PDB_V1.1_Core_3D.png)
+![PDB_V1.1_Core_3D.png](Hardware/PDB_V1.1/PDB_V1.1_Core_3D.png)
 
 PDB_V1.1驱动板：
 
-![PDB_V1.1_Mother_3D.png](Hardware\PDB_V1.1\PDB_V1.1_Mother_3D.png)
+![PDB_V1.1_Mother_3D.png](Hardware/PDB_V1.1/PDB_V1.1_Mother_3D.png)
 
-![PDB_V1.1_Mother_3Dback.png](Hardware\PDB_V1.1\PDB_V1.1_Mother_3Dback.png)
+![PDB_V1.1_Mother_3Dback.png](Hardware/PDB_V1.1/PDB_V1.1_Mother_3Dback.png)
 
 PDB_V1.1_MultiBoard：
 
-！[PDB_V1.1_MultiBoard_3D.png](Hardware\PDB_V1.1\PDB_V1.1_MultiBoard_3D.png)
+![PDB_V1.1_MultiBoard_3D.png](Hardware/PDB_V1.1/PDB_V1.1_MultiBoard_3D.png)
 
 ## 软件说明
 
 PDB嵌入式软件基于STM32cubeMX+Keil开发，采用FreeRTOS操作系统
 
-！[PDB_firmware.png](Firmware\PDB_firmware.png)
+![PDB_firmware.png](Firmware/PDB_firmware.png)
