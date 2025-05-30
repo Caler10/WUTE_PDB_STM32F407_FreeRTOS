@@ -62,10 +62,10 @@ PDB嵌入式软件基于STM32cubeMX+Keil开发，采用FreeRTOS操作系统
 
 # 实物图
 
-如下图为焊接好的一块PDB可用备件
+焊接好的一块PDB可用备件
 
 ![PDB_V1.1_Picture.png](Hardware/PDB_V1.1_Picture.png)
 
-如下图为PDB和两块12V低压电池封装在一起，布置在赛车尾部
+PDB和两块12V低压电池封装在一起，布置在赛车尾部
 
 ![PDB_V1.1_Picture2.png](Hardware/PDB_V1.1_Picture2.png)
