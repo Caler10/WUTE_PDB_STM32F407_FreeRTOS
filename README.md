@@ -33,7 +33,7 @@ PDB_V1.1_MultiBoard：
 
 ![PDB_V1.1_MultiBoard_3D.png](Hardware/PDB_V1.1/PDB_V1.1_MultiBoard_3D.png)
 
-PDB_V1.0集成了OLED实时诊断数据显示，但是灵活性不够，因此PDB_V1.1取消了OLED并集成了4G模块，方便远程监测赛车配电情况，另外PDB_V1.1在底板上增加了主控烧录调试接口、CAN总线调试接口，并进一步优化了配电载流走线、修复了一些器件PCB封装问题
+PDB_V1.0集成了OLED实时诊断数据显示，但是观察灵活性不够，因此PDB_V1.1取消了OLED，集成了4G数传功能，方便远程监测赛车配电情况，另外PDB_V1.1在底板增加了烧录、CAN调试接口，并优化了配电载流走线、修复了一些器件PCB封装问题
 
 ### PDB核心板设计
 
@@ -71,7 +71,9 @@ PDB_V1.1底板：
 
 开发平台：STM32F407VET6
 
-开发环境：STM32cubeMX+Keil；
+开发环境：STM32cubeMX+Keil
+
+软件架构：基于CORE层+BSP层+FreeRTOS+APP层的架构开发
 
 软件功能：
 
@@ -85,14 +87,18 @@ PDB_V1.1底板：
    
 5. 基于事件组/信号量/队列的任务间通信等
 
-软件架构：基于CORE层+BSP层+FreeRTOS+APP层的架构开发
-
 ![PDB_firmware.png](Firmware/PDB_firmware.png)
 
 # 实物图
+
+PDB实物图：
 
 ![PDB_V1.1_Picture.png](Hardware/PDB_V1.1_Picture.png)
 
 PDB和两块低压电池集成封装，布置在赛车尾部
 
 ![PDB_V1.1_Picture2.png](Hardware/PDB_V1.1_Picture2.png)
+
+# 项目成果
+
+该项目顺利完成开发并搭载在2024赛季E10赛车上，通过了累计50+小时的耐久测试，有效保障赛车低压系统配电安全同时实现了整车轻量化（采用HSD取代保险丝和继电器，实现配电盒整体减重约30%），并支撑E10赛车在2024年FSAE中国大学生电动方程式汽车大赛顺利完赛并取得全国季军。
