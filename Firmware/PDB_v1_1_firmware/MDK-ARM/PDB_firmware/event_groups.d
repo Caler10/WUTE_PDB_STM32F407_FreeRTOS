@@ -1,9 +1,9 @@
 pdb_firmware/event_groups.o: \
   ..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stdlib.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stdlib.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stddef.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stdint.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stddef.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stdint.h \
   ..\Core\Inc\FreeRTOSConfig.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h \

@@ -1,7 +1,7 @@
 pdb_firmware/freertos.o: ..\Core\Src\freertos.c \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stddef.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stdint.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stddef.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stdint.h \
   ..\Core\Inc\FreeRTOSConfig.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h \
@@ -17,10 +17,10 @@ pdb_firmware/freertos.o: ..\Core\Src\freertos.c \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
   ..\Drivers\CMSIS\Include\core_cm4.h \
-  D:\Myworkspace\PDB1.1\Firmware\PDB_firmware_240925\Drivers\CMSIS\Include\cmsis_version.h \
-  D:\Myworkspace\PDB1.1\Firmware\PDB_firmware_240925\Drivers\CMSIS\Include\cmsis_compiler.h \
-  D:\Myworkspace\PDB1.1\Firmware\PDB_firmware_240925\Drivers\CMSIS\Include\cmsis_armclang.h \
-  D:\Myworkspace\PDB1.1\Firmware\PDB_firmware_240925\Drivers\CMSIS\Include\mpu_armv7.h \
+  E:\Workspace\Myworkspace\WUTE_PDB_STM32F407_FreeRTOS\Firmware\PDB_v1_1_firmware\Drivers\CMSIS\Include\cmsis_version.h \
+  E:\Workspace\Myworkspace\WUTE_PDB_STM32F407_FreeRTOS\Firmware\PDB_v1_1_firmware\Drivers\CMSIS\Include\cmsis_compiler.h \
+  E:\Workspace\Myworkspace\WUTE_PDB_STM32F407_FreeRTOS\Firmware\PDB_v1_1_firmware\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\Workspace\Myworkspace\WUTE_PDB_STM32F407_FreeRTOS\Firmware\PDB_v1_1_firmware\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
@@ -47,9 +47,9 @@ pdb_firmware/freertos.o: ..\Core\Src\freertos.c \
   ..\Core\Inc\tim.h ..\Core\Inc\usart.h ..\Bsp\Inc\hsd_drive.h \
   ..\Bsp\Inc\mycan.h ..\Bsp\Inc\oled.h ..\Bsp\Inc\oledfont.h \
   ..\Bsp\Inc\myusart.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stdio.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\string.h \
-  D:\AppGallery\Software\Keil_v5\Arm\ARMCLANG\include\stdarg.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stdio.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\string.h \
+  D:\AppGallery\Keil_v5\ARM\ARMCLANG\include\stdarg.h \
   ..\Bsp\Inc\voltage_monitor.h ..\App\Inc\standby.h \
   ..\App\Inc\monitor_app.h ..\App\Inc\can_app.h ..\App\Inc\oled_app.h \
   ..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h \
